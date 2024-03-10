@@ -1,0 +1,112 @@
+{
+	"kinematicList": [
+		{
+			"col": "$CONTENT_DATA/Kinematics/Mesh/kin_interactive_turret_seat_col.obj",
+			"collides": {
+				"body": false,
+				"character": true,
+				"melee": true,
+				"projectile": true
+			},
+			"destroyTime": 0.33,
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_interactive_turret_seat",
+			"removable": true,
+			"renderable": "$CONTENT_DATA/Kinematics/Renderables/kin_interactive_turret_seat.rend",
+			"script": {
+				"class": "TurretSeat",
+				"data": {},
+				"file": "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Scripts/kinematics/TurretSeat.lua",
+				"seat": {
+					"bones": [
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": -0.1,
+								"z": -0.3
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.2,
+								"y": 1.1,
+								"z": 1.5
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.2,
+								"y": 1.1,
+								"z": 1.5
+							},
+							"freeRotation": true
+						}
+					],
+					"ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"uuid": "22b00c9e-e040-48e2-b67a-3f41a6470354"
+		},
+		{
+			"col": "$CONTENT_DATA/Kinematics/Mesh/kin_interactive_cannon_seat_col.obj",
+			"collides": {
+				"body": false,
+				"character": true,
+				"melee": true,
+				"projectile": true
+			},
+			"destroyTime": 0.33,
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_interactive_cannon_seat",
+			"removable": true,
+			"renderable": "$CONTENT_DATA/Kinematics/Renderables/kin_interactive_cannon_seat.rend",
+			"script": {
+				"class": "CannonSeat",
+				"data": {},
+				"file": "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Scripts/kinematics/CannonSeat.lua",
+				"seat": {
+					"bones": [
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": -0.1,
+								"z": -0.3
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.2,
+								"y": 1.1,
+								"z": 1.5
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.2,
+								"y": 1.1,
+								"z": 1.5
+							},
+							"freeRotation": true
+						}
+					],
+					"ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"uuid": "f2efb390-b77d-4587-b2ce-b895698e2fd5"
+		}
+	]
+}
