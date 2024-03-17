@@ -22,9 +22,9 @@
             {
                "material" : "DifAsgNor_Pose2",
                "textureList" : [
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_02_dif.tga",
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_02_asg.tga",
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_02_nor.tga"
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_cannon_dif.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_cannon_asg.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_cannon_nor.tga"
                ]
             }
          ]
