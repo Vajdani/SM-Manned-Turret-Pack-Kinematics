@@ -1,16 +1,16 @@
 {
    "lodList" : [
       {
-         "mesh" : "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Mesh/kin_interactive_turret_seat.fbx",
-         "pose0" : "$CONTENT_DATA/Kinematics/Mesh/kin_interactive_turret_seat_pose0.fbx",
-         "pose1" : "$CONTENT_DATA/Kinematics/Mesh/kin_interactive_turret_seat_pose1.fbx",
+         "mesh" : "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Mesh/TurretSeat/kin_interactive_turret_seat.fbx",
+         "pose0" : "$CONTENT_DATA/Kinematics/Mesh/Turret/kin_interactive_turret_seat_pose0.fbx",
+         "pose1" : "$CONTENT_DATA/Kinematics/Mesh/Turret/kin_interactive_turret_seat_pose1.fbx",
          "subMeshList" : [
             {
                "material" : "DifAsgNor_Pose2",
                "textureList" : [
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_02_dif.tga",
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_02_asg.tga",
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_02_nor.tga"
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_02_dif.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_02_asg.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_02_nor.tga"
                ]
             },
             {
@@ -22,9 +22,9 @@
                },
                "material" : "UVAnimDifAsgNor",
                "textureList" : [
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_01_dif.tga",
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_01_asg.tga",
-                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/kin_interactive_turret_01_nor.tga"
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_01_dif.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_01_asg.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_01_nor.tga"
                ]
             }
          ]

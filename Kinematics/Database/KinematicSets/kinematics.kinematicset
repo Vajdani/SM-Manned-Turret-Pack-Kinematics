@@ -1,7 +1,7 @@
 {
 	"kinematicList": [
 		{
-			"col": "$CONTENT_DATA/Kinematics/Mesh/kin_interactive_turret_seat_col.obj",
+			"col": "$CONTENT_DATA/Kinematics/Mesh/Collision/kin_interactive_turret_seat_col.obj",
 			"collides": {
 				"body": false,
 				"character": true,
@@ -55,7 +55,7 @@
 			"uuid": "22b00c9e-e040-48e2-b67a-3f41a6470354"
 		},
 		{
-			"col": "$CONTENT_DATA/Kinematics/Mesh/kin_interactive_cannon_seat_col.obj",
+			"col": "$CONTENT_DATA/Kinematics/Mesh/Collision/kin_interactive_cannon_seat_col.obj",
 			"collides": {
 				"body": false,
 				"character": true,
