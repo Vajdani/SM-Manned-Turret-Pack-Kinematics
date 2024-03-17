@@ -1,6 +1,5 @@
 # Blender 4.0.2
 # www.blender.org
-mtllib kin_interactive_turret_seat_col.mtl
 o CollisionSeat1
 v -1.000000 -0.677734 -1.988548
 v 1.000000 -0.677733 -1.988548
