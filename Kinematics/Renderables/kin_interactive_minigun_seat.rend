@@ -1,0 +1,33 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Mesh/TurretSeat/kin_interactive_minigun_seat.fbx",
+         "pose0" : "$CONTENT_DATA/Kinematics/Mesh/Minigun/kin_interactive_minigun_seat_pose0.fbx",
+         "pose1" : "$CONTENT_DATA/Kinematics/Mesh/Minigun/kin_interactive_minigun_seat_pose1.fbx",
+         "subMeshList" : [
+            {
+               "custom" : {
+                  "uv0" : {
+                     "u" : 0.50,
+                     "v" : 0.0
+                  }
+               },
+               "material" : "UVAnimDifAsgNor",
+               "textureList" : [
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_01_dif.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_01_asg.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Normal/kin_interactive_turret_01_nor.tga"
+               ]
+            },
+            {
+               "material" : "DifAsgNor_Pose2",
+               "textureList" : [
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Cannon/kin_interactive_turret_cannon_dif.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Cannon/kin_interactive_turret_cannon_asg.tga",
+                  "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Objects/Textures/TurretSeat/Cannon/kin_interactive_turret_cannon_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}
