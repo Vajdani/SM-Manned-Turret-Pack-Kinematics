@@ -161,6 +161,60 @@
 				}
 			},
 			"uuid": "ff5b4291-25cd-4af9-b325-5c6b2a2fd071"
+		},
+		{
+			"col": "$CONTENT_DATA/Kinematics/Mesh/Collision/kin_interactive_railgun_seat_col.obj",
+			"collides": {
+				"body": false,
+				"character": true,
+				"melee": true,
+				"projectile": true
+			},
+			"destroyTime": 0.33,
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_interactive_railgun_seat",
+			"removable": true,
+			"renderable": "$CONTENT_DATA/Kinematics/Renderables/kin_interactive_railgun_seat.rend",
+			"script": {
+				"class": "RailgunSeat",
+				"data": {},
+				"file": "$CONTENT_f51045bd-3f94-476a-8053-55ba172d19a5/Scripts/kinematics/RailgunSeat.lua",
+				"seat": {
+					"bones": [
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": -0.1,
+								"z": -0.3
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.2,
+								"y": 1.1,
+								"z": 1.5
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.2,
+								"y": 1.1,
+								"z": 1.5
+							},
+							"freeRotation": true
+						}
+					],
+					"ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"uuid": "ce51d535-7a28-4532-82e2-f39f7f41ac36"
 		}
 	]
 }
